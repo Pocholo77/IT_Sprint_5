@@ -8,5 +8,5 @@ boton.addEventListener("click", function getJokes() {
     },
   })
     .then((response) => response.json())
-    .then((data) => console.log(data.joke));
+    .then((data) =>  document.getElementById('results').innerHTML = data.joke );
 });
