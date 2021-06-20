@@ -10,7 +10,7 @@ function clima (){
      }
   })
     .then( response => response.json())
-    .then( data => document.getElementById("tiempo").innerHTML = data.stateSky.description)
+    .then( data => document.getElementById("tiempo").innerHTML = data.stateSky.description )
 }
 
 boton.addEventListener("click", function getJokes() {

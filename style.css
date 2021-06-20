@@ -1,0 +1,17 @@
+.bg_img{
+    background: url('../img/people-1024x679.jpg');
+    background-size: cover;
+    height: 90vh;
+    
+}
+.card{
+    height: 30%;
+    width: 50%;
+    border-radius: 3%;
+}
+.card_body{
+    height:80%;
+}
+#results{
+    font-weight: bolder;
+}
